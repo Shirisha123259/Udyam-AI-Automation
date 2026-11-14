@@ -1,0 +1,82 @@
+{
+    "enterprise_name": {
+        "portal_label": "Name of Enterprise",
+        "section": "Enterprise Details",
+        "value": "Sunrise Digital Services"
+    },
+    "organization_type": {
+        "portal_label": "Type of Organization",
+        "section": "Enterprise Details",
+        "value": "Proprietorship"
+    },
+    "owner_name": {
+        "portal_label": "Name of Entrepreneur",
+        "section": "Aadhaar Verification",
+        "value": "Demo Owner"
+    },
+    "business_activity": {
+        "portal_label": "Business Activity",
+        "section": "Business Details",
+        "value": "Software Development and IT Services"
+    },
+    "door_number": {
+        "portal_label": "Door Number",
+        "section": "Address",
+        "value": "12"
+    },
+    "street": {
+        "portal_label": "Street",
+        "section": "Address",
+        "value": "MG Road"
+    },
+    "city": {
+        "portal_label": "City",
+        "section": "Address",
+        "value": "Bengaluru"
+    },
+    "district": {
+        "portal_label": "District",
+        "section": "Address",
+        "value": "Bengaluru Urban"
+    },
+    "state": {
+        "portal_label": "State",
+        "section": "Address",
+        "value": "Karnataka"
+    },
+    "pin_code": {
+        "portal_label": "PIN Code",
+        "section": "Address",
+        "value": "560001"
+    },
+    "commencement_date": {
+        "portal_label": "Date of Commencement",
+        "section": "Enterprise Details",
+        "value": "01-04-2024"
+    },
+    "employees": {
+        "portal_label": "Number of Employees",
+        "section": "Enterprise Details",
+        "value": "5"
+    },
+    "major_activity": {
+        "portal_label": "Major Activity",
+        "section": "Enterprise Details",
+        "value": "Services"
+    },
+    "business_description": {
+        "portal_label": "Business Description",
+        "section": "Business Details",
+        "value": "Software development, website design and IT consulting services."
+    },
+    "bank_name": {
+        "portal_label": "Bank Name",
+        "section": "Bank Details",
+        "value": "Demo Bank"
+    },
+    "ifsc_code": {
+        "portal_label": "IFSC Code",
+        "section": "Bank Details",
+        "value": "DEMO0001234"
+    }
+}

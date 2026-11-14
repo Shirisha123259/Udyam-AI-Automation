@@ -1,0 +1,240 @@
+{
+    "Aadhaar Verification": [
+        {
+            "field": "Aadhaar Number",
+            "value": "[MANUAL ENTRY REQUIRED]",
+            "status": "Sensitive - manual entry"
+        },
+        {
+            "field": "Name of Entrepreneur",
+            "value": "Demo Owner",
+            "status": "Available in input"
+        }
+    ],
+    "PAN Verification": [
+        {
+            "field": "PAN Number",
+            "value": "[MANUAL ENTRY REQUIRED]",
+            "status": "Sensitive - manual entry"
+        },
+        {
+            "field": "Name of PAN Holder",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "DOB or DOI as per PAN",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "GSTIN",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Previous Year ITR Filed",
+            "value": null,
+            "status": "Information required"
+        }
+    ],
+    "Basic Details": [
+        {
+            "field": "Type of Organisation",
+            "value": "Proprietorship",
+            "status": "Available in input"
+        },
+        {
+            "field": "Name of Enterprise",
+            "value": "Sunrise Digital Services",
+            "status": "Available in input"
+        },
+        {
+            "field": "Mobile Number",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Email",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Social Category",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Gender",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Specially Abled",
+            "value": null,
+            "status": "Information required"
+        }
+    ],
+    "Plant/Unit Details": [
+        {
+            "field": "Plant/Unit Name",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Plant Door Number",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Plant Road/Street",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Plant City",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Plant PIN Code",
+            "value": null,
+            "status": "Information required"
+        }
+    ],
+    "Official Address": [
+        {
+            "field": "Flat/Door/Block Number",
+            "value": "12",
+            "status": "Available in input"
+        },
+        {
+            "field": "Name of Premises/Building",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Village/Town",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Block",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Road/Street/Lane",
+            "value": "MG Road",
+            "status": "Available in input"
+        },
+        {
+            "field": "City",
+            "value": "Bengaluru",
+            "status": "Available in input"
+        },
+        {
+            "field": "PIN Code",
+            "value": "560001",
+            "status": "Available in input"
+        },
+        {
+            "field": "State",
+            "value": "Karnataka",
+            "status": "Available in input"
+        },
+        {
+            "field": "District",
+            "value": "Bengaluru Urban",
+            "status": "Available in input"
+        }
+    ],
+    "Enterprise Status": [
+        {
+            "field": "Date of Incorporation/Registration",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Date of Commencement",
+            "value": "01-04-2024",
+            "status": "Available in input"
+        },
+        {
+            "field": "Whether Business Commenced",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Previous EM-II/UAM Registration",
+            "value": null,
+            "status": "Information required"
+        }
+    ],
+    "Bank Details": [
+        {
+            "field": "Bank Name",
+            "value": "Demo Bank",
+            "status": "Available in input"
+        },
+        {
+            "field": "IFS Code",
+            "value": "DEMO0001234",
+            "status": "Available in input"
+        },
+        {
+            "field": "Bank Account Number",
+            "value": "[MANUAL ENTRY REQUIRED]",
+            "status": "Sensitive - local input only"
+        }
+    ],
+    "Business Activity": [
+        {
+            "field": "Major Activity",
+            "value": "Services",
+            "status": "Available in input"
+        },
+        {
+            "field": "NIC Activity Code",
+            "value": "NIC suggestion required",
+            "status": "Suggested - manual confirmation"
+        },
+        {
+            "field": "Male Employees",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Female Employees",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Other Employees",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Total Employees",
+            "value": 5,
+            "status": "Available in input"
+        }
+    ],
+    "Financial Details": [
+        {
+            "field": "Investment in Plant and Machinery/Equipment",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Total Turnover",
+            "value": null,
+            "status": "Information required"
+        },
+        {
+            "field": "Export Turnover",
+            "value": null,
+            "status": "Information required"
+        }
+    ]
+}

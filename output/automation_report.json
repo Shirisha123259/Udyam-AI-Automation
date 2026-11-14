@@ -1,0 +1,26 @@
+{
+    "portal": "Local Mock Udyam Registration",
+    "automation": "Playwright",
+    "filled_fields": [
+        "enterprise_name",
+        "organization_type",
+        "owner_name",
+        "business_activity",
+        "city",
+        "district",
+        "state",
+        "pin_code",
+        "commencement_date",
+        "employees",
+        "major_activity",
+        "business_description",
+        "bank_name",
+        "ifsc_code",
+        "account_number"
+    ],
+    "skipped_fields": [],
+    "validation_message": "Validation successful!",
+    "final_review_reached": true,
+    "submitted": false,
+    "real_government_portal_used": false
+}

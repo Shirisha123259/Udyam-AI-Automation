@@ -1,0 +1,69 @@
+{
+    "page_title": "UDYAM REGISTRATION FORM - For New Enterprise who are not Registered yet as MSME",
+    "url": "https://udyamregistration.gov.in/UdyamRegistration.aspx",
+    "visible_controls": [
+        {
+            "tag": "BUTTON",
+            "type": null,
+            "id": "",
+            "name": null,
+            "placeholder": null,
+            "text": "English",
+            "disabled": false,
+            "maxLength": null
+        },
+        {
+            "tag": "INPUT",
+            "type": "text",
+            "id": "ctl00_ContentPlaceHolder1_txtadharno",
+            "name": "ctl00$ContentPlaceHolder1$txtadharno",
+            "placeholder": "Your Aadhaar No",
+            "text": "",
+            "disabled": false,
+            "maxLength": 12
+        },
+        {
+            "tag": "INPUT",
+            "type": "text",
+            "id": "ctl00_ContentPlaceHolder1_txtownername",
+            "name": "ctl00$ContentPlaceHolder1$txtownername",
+            "placeholder": "Name as per Aadhaar",
+            "text": "",
+            "disabled": false,
+            "maxLength": 100
+        },
+        {
+            "tag": "INPUT",
+            "type": "checkbox",
+            "id": "ctl00_ContentPlaceHolder1_chkDecarationA",
+            "name": "ctl00$ContentPlaceHolder1$chkDecarationA",
+            "placeholder": null,
+            "text": "",
+            "disabled": false,
+            "maxLength": -1
+        },
+        {
+            "tag": "INPUT",
+            "type": "submit",
+            "id": "ctl00_ContentPlaceHolder1_btnValidateAadhaar",
+            "name": "ctl00$ContentPlaceHolder1$btnValidateAadhaar",
+            "placeholder": null,
+            "text": "",
+            "disabled": false,
+            "maxLength": -1
+        }
+    ],
+    "headings_and_labels": [
+        "Udyam Registration",
+        "Aadhaar Verification",
+        "Address",
+        "139",
+        "Visitor Count",
+        "Get In Touch",
+        "Email: champions@gov.in",
+        "For Grievances",
+        "Call or Whatsapp on",
+        "+91 8308809334"
+    ],
+    "inspection_only": true
+}

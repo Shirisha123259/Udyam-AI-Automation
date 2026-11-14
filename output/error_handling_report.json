@@ -1,0 +1,21 @@
+{
+    "total_tests": 2,
+    "passed": 2,
+    "failed": 0,
+    "results": [
+        {
+            "test_name": "invalid_pin_test",
+            "expected_message": "PIN code must contain exactly 6 digits.",
+            "actual_message": "PIN code must contain exactly 6 digits.",
+            "final_review_visible": false,
+            "result": "PASS"
+        },
+        {
+            "test_name": "missing_enterprise_test",
+            "expected_message": "Please complete the required fields.",
+            "actual_message": "Please complete the required fields.",
+            "final_review_visible": false,
+            "result": "PASS"
+        }
+    ]
+}

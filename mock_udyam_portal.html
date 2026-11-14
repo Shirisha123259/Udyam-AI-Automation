@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mock Udyam Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #f4f6f8;
+        }
+        .container {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        h1, h2 { color: #174a72; }
+        .notice {
+            background: #fff3cd;
+            padding: 12px;
+            border-radius: 5px;
+            color: #664d03;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            margin-top: 20px;
+            padding: 12px 18px;
+            background: #174a72;
+            color: white;
+            border: 0;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #message {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        #review {
+            display: none;
+            margin-top: 20px;
+            padding: 15px;
+            background: #e8f5e9;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Mock Udyam Registration Portal</h1>
+
+    <div class="notice">
+        DEMO ONLY — This is a local practice form.
+        It is not an official Government of India portal.
+        Do not enter real Aadhaar, PAN or bank details.
+    </div>
+
+    <h2>Enterprise Details</h2>
+
+    <form id="registrationForm">
+        <label>Enterprise Name</label>
+        <input id="enterprise_name" required>
+
+        <label>Organization Type</label>
+        <input id="organization_type" required>
+
+        <label>Owner Name</label>
+        <input id="owner_name" required>
+
+        <label>Business Activity</label>
+        <input id="business_activity" required>
+
+        <label>City</label>
+        <input id="city" required>
+
+        <label>District</label>
+        <input id="district" required>
+
+        <label>State</label>
+        <input id="state" required>
+
+        <label>PIN Code</label>
+        <input id="pin_code" maxlength="6" required>
+
+        <label>Commencement Date</label>
+        <input id="commencement_date" required>
+
+        <label>Number of Employees</label>
+        <input id="employees" type="number" min="0" required>
+
+        <label>Major Activity</label>
+        <input id="major_activity" required>
+
+        <label>Business Description</label>
+        <textarea id="business_description" required></textarea>
+
+        <label>Bank Name (Demo)</label>
+        <input id="bank_name">
+
+        <label>IFSC Code (Demo)</label>
+        <input id="ifsc_code">
+
+        <label>Account Number (Fictional Demo Only)</label>
+        <input id="account_number">
+
+        <button type="button" id="validateBtn">
+            Validate Details
+        </button>
+    </form>
+
+    <p id="message"></p>
+
+    <section id="review">
+        <h2>Final Review</h2>
+        <p>Demo details have been filled and validated.</p>
+        <p id="reviewSummary"></p>
+        <strong>Demo stopped at Final Review. No submission performed.</strong>
+    </section>
+</div>
+
+<script>
+    document.getElementById("validateBtn").addEventListener("click", () => {
+        const form = document.getElementById("registrationForm");
+        const message = document.getElementById("message");
+
+        if (!form.reportValidity()) {
+            message.textContent = "Please complete the required fields.";
+            message.style.color = "red";
+            return;
+        }
+
+        const pin = document.getElementById("pin_code").value.trim();
+
+        if (!/^\d{6}$/.test(pin)) {
+            message.textContent = "PIN code must contain exactly 6 digits.";
+            message.style.color = "red";
+            return;
+        }
+
+        message.textContent = "Validation successful!";
+        message.style.color = "green";
+
+        document.getElementById("reviewSummary").textContent =
+            "Enterprise: " +
+            document.getElementById("enterprise_name").value;
+
+        document.getElementById("review").style.display = "block";
+    });
+</script>
+</body>
+</html>

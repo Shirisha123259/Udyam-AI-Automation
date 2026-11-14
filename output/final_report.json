@@ -1,0 +1,24 @@
+{
+    "extraction_status": "Success",
+    "validation_status": "Passed",
+    "validation_errors": [],
+    "validation_warnings": [],
+    "nic_suggestions": [
+        {
+            "code": "62011",
+            "description": "Writing, modifying and testing computer programs"
+        },
+        {
+            "code": "62012",
+            "description": "Web-page designing"
+        },
+        {
+            "code": "62020",
+            "description": "Computer consultancy and facilities management"
+        }
+    ],
+    "mapped_fields_count": 16,
+    "unmapped_fields": [],
+    "portal_automation_status": "Inspection and mapping only",
+    "final_submission_status": "Not submitted"
+}

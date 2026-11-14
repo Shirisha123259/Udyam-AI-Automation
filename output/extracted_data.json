@@ -1,0 +1,21 @@
+{
+    "enterprise_name": "Sunrise Digital Services",
+    "organization_type": "Proprietorship",
+    "owner_name": "Demo Owner",
+    "business_activity": "Software Development and IT Services",
+    "door_number": "12",
+    "street": "MG Road",
+    "city": "Bengaluru",
+    "district": "Bengaluru Urban",
+    "state": "Karnataka",
+    "pin_code": "560001",
+    "commencement_date": "01-04-2024",
+    "employees": 5,
+    "major_activity": "Services",
+    "business_description": "Software development, website design and IT consulting services.",
+    "bank_name": "Demo Bank",
+    "ifsc_code": "DEMO0001234",
+    "account_number": "TEST000000",
+    "missing_fields": [],
+    "warnings": []
+}

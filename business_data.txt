@@ -1,0 +1,26 @@
+
+BUSINESS INFORMATION
+
+Enterprise Name: Sunrise Digital Services
+Organization Type: Proprietorship
+Owner Name: Demo Owner
+Business Activity: Software Development and IT Services
+
+Business Address:
+Door Number: 12
+Street: MG Road
+City: Bengaluru
+District: Bengaluru Urban
+State: Karnataka
+PIN Code: 560001
+
+Enterprise Details:
+Date of Commencement: 01-04-2024
+Number of Employees: 5
+Major Activity: Services
+Business Description: Software development, website design and IT consulting services.
+
+Bank Details:
+Bank Name: Demo Bank
+IFSC Code: DEMO0001234
+Account Number: TEST000000
